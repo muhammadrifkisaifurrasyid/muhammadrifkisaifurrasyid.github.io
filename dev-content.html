@@ -32,7 +32,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>My Portfolio | Blog</title>
+    <title>My Portfolio | dev-content</title>
   </head>
   <body id="home">
     <!-- Navbar -->
@@ -48,10 +48,10 @@
               <a class="nav-link" aria-current="page" href="./index.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#blog">Blog</a>
+              <a class="nav-link" href="./blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a href="./dev-content.html" class="nav-link">Dev Content</a>
+              <a href="./dev-content.html" class="nav-link active">Dev Content</a>
             </li>
             <li class="nav-item">
               <a href="https://linki.ee/muhammadrifki" class="nav-link">Sosial Media</a>
@@ -65,37 +65,43 @@
     </nav>
     <!-- Akhir Navbar -->
 
-<!-- card -->
+<!-- search -->
 <section class="jumbotron">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="./img/img-blog/fotoTerong.jpg" class="img-fluid"/>
-            <a href="./artikel-1.html">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">LAPORAN PRAKTIKUM BUDIDAYA TANAMAN TERONG UNGU</h5>
-            <p class="card-text">ini adalah hasil tugas sekolah saya yang saya tulis di blog ini</p>
-            <a href="./artikel-1.html" class="btn btn-primary">Baca</a>
-          </div>
-        </div>   
+    <div class="container">
+            <div class="row d-flex justify-content-center">
+              <p class="fs-4 fw-bold text text-center" >ini adalah beberapa kumpulan content untuk developer yang saya kumpulkan</p>
+            </div>
+    </div>
+</section>
+<!-- akhir search -->
+
+<!-- result content -->
+<div class="container">
+    <div class="row g-2 content-container">
+    
+    </div>
+</div>
+<!-- akhihr result content -->
+
+<!-- alert for error -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-8 alert-for-error">
+        
       </div>
     </div>
   </div>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path
-      fill="#ffffff"
-      fill-opacity="10"
-      d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-    ></path>
-  </svg>
-</section>
-<!-- akhhir card -->
+<!-- akhir alert for error -->
+
+<!-- show content -->
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-8 mt-3 mb-2 show-content">
+
+      </div>
+    </div>
+  </div>
+<!-- akhir show content -->
 
     <!-- Contact -->
     <section id="contact">
@@ -176,5 +182,9 @@
     <!-- script cchat -->
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="72e1e920-8a39-4347-be5d-c26e1bbd171f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     <!-- akhir script chat -->
+
+    <!-- script dev-content -->
+    <script src="./js/dev.content.js"></script>
+    <!-- akhir script dev-content -->
   </body>
 </html>
